@@ -1,0 +1,7 @@
+P = float(input("Initial Investment "))
+r = float(input("Interest Rate "))
+n = int(input("Number of compounds per year "))
+t = int(input("Number of years "))
+
+output = P * ( (1+r/n)**(n*t) )
+print(output)
