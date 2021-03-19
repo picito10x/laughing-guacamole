@@ -1,0 +1,21 @@
+max_step = 0
+max_step_N = 0
+max_N = 0
+for N in range(1,101,1):
+    ori_N = N
+    count = 0
+    while True:
+        # print (N)
+        if N == 1:
+            break
+        if N % 2 == 0:
+            N = N/2
+        else:
+            N= N*3 + 1
+        count += 1
+    if count > max_step:
+        max_step = count
+        max_step_N = ori_N
+    print("Count of sequence start with ", ori_N, "is", count)
+
+print("Max step is ", max_step, "- sequence", max_step_N)
