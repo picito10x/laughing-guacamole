@@ -1,0 +1,13 @@
+import turtle
+
+win = turtle.Screen()
+tom = turtle.Turtle()
+
+tom.color("purple")
+win.bgcolor("yellow")
+tom.speed(1)
+
+for i in range(5):
+    tom.circle(10*i)
+
+win.exitonclick()
