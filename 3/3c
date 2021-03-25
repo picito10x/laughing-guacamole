@@ -1,0 +1,22 @@
+import turtle
+
+win = turtle.Screen()
+tito = turtle.Turtle()
+tim = turtle.Turtle()
+
+
+tim = turtle.Turtle()
+
+tito.color("purple")
+win.bgcolor("black")
+tito.speed(1)
+
+n =6
+for i in range(n):
+    tito.forward(100)
+    tito.left(360/n)
+    tim.forward(100)
+    tim.left(360/n)
+
+win.exitonclick()
+
