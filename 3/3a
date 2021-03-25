@@ -1,0 +1,16 @@
+import turtle
+
+win = turtle.Screen()
+tito = turtle.Turtle()
+
+tito.color("purple")
+win.bgcolor("black")
+tito.speed(1)
+
+tito.forward(100)
+tito.left(120)
+tito.forward(100)
+tito.left(120)
+tito.forward(100)
+
+win.exitonclick()
