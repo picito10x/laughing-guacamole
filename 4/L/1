@@ -1,0 +1,10 @@
+def cal(n):
+    sq = n*n
+    double_n = n*2
+    triple_n = n*3
+    return sq, double_n, triple_n
+
+sq_n, t_n, d_n =cal(1)
+print (sq_n)
+print(t_n)
+print(d_n)
